@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+th,.jam,.ket,.ket2{
+  text-align:left;
+  vertical-align:middle;
+  padding:5px 10px;
+}
+.do{
+  text-align:center;
+  vertical-align:middle;
+  padding:5px 45px;
+}
+th{
+  font-size:30px;
+}
+table{
+  display:block;
+  width:fit-content;
+  margin:40px auto;
+  color:white;
+}
+tr,td{
+  border: 1px solid rgba(00, 11, 33, 0.5);
+  border-collapse: collapse;
+  font-size:18px;
+}
+.close1{
+  border:none;
+}
+.close2{
+  border:none;
+  width:15vw;
+}
+.close3{
+  border:none;
+  width:15vw;
+}
+.close4{
+  border:none;
+  width:15vw;
+}
+#tabel{
+  overflow-y:scroll;
+  height:100vh;
+}
+body{
+  padding:0;
+  margin:0;
+  background-image:url("image/Sky.png");
+  font-family:"Open Sans Condensed";
+}
+@media only screen and (max-width:1000px){
+  .do{
+    padding:5px 15px;
+  }
+  .ket2,.close4{
+    display:none;
+  }
+  .close3{
+    width:40vw;
+  }
+  .close2{
+    width:30vw;
+  }
+  #minggu{
+    margin-bottom:200px;
+  }
+}
