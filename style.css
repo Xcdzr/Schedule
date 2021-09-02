@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
-th,.jam,.ket,.ket2{
+th,.hour,.note,.note2{
   text-align:left;
   vertical-align:middle;
   padding:5px 10px;
@@ -13,7 +13,7 @@ th{
   font-size:30px;
 }
 table{
-  display:block;
+  display:none;
   width:fit-content;
   margin:40px auto;
   color:white;
@@ -38,21 +38,28 @@ tr,td{
   border:none;
   width:15vw;
 }
-#tabel{
-  overflow-y:scroll;
-  height:100vh;
-}
 body{
   padding:0;
   margin:0;
   background-image:url("image/Sky.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family:"Open Sans Condensed";
+}
+html{
+  height:100vh;
+  padding:0;
+}
+.sleep{
+  text-align:center;
+  font-size:50px;
+  background-color: rgba(101,51,115,255);
 }
 @media only screen and (max-width:1000px){
   .do{
     padding:5px 15px;
   }
-  .ket2,.close4{
+  .note2,.close4{
     display:none;
   }
   .close3{
