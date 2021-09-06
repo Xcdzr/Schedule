@@ -29,7 +29,6 @@ switch(day){
         dayss=5;
         break;
 }
-document.getElementById(days).style.display = "block";
 const hour = new Date().getHours();
 switch(hour){
     case 22:
@@ -47,6 +46,7 @@ switch(hour){
         break;
     default:
         hours="timeis"+hour;
+        document.getElementById(days).style.display = "block";
         document.getElementsByClassName(hours)[dayss].style.backgroundColor = "rgba(101,51,115,255)" ;
         break;
 }
